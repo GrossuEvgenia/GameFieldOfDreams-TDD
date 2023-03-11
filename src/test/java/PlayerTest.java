@@ -8,4 +8,13 @@ public class PlayerTest {
         Player player = new Player();
         Assertions.assertNotNull(player);
     }
+
+    @Test
+    public void initializationGuessedWord(){
+        char expected[] = {'_','_','_','_'};
+        Player player = new Player();
+
+        player.initializationGuessedWord(4);
+        Assertions.assertArrayEquals(expected, player.getGuessedWord());
+    }
 }
