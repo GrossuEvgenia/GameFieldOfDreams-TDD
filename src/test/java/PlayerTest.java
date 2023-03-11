@@ -17,4 +17,15 @@ public class PlayerTest {
         player.initializationGuessedWord(4);
         Assertions.assertArrayEquals(expected, player.getGuessedWord());
     }
+
+    @Test
+    public void reduceNumberOfLives(){
+        Player player = new Player();
+        player.setNumberOfLives(5);
+        int expected = 4;
+
+        player.reduceNumberOfLives();
+
+        Assertions.assertEquals(expected, player.getNumberOfLives());
+    }
 }
