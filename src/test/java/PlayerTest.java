@@ -28,4 +28,13 @@ public class PlayerTest {
 
         Assertions.assertEquals(expected, player.getNumberOfLives());
     }
+    @Test
+    public void addGuessedLetters(){
+        Player player = new Player();
+        int expected =1 ;
+
+        player.addGuessedLetters(1);
+
+        Assertions.assertEquals(expected, player.getGuessedLetters());
+    }
 }
