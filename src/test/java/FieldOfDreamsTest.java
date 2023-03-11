@@ -39,4 +39,16 @@ public class FieldOfDreamsTest {
         Assertions.assertEquals(expectedLives, actualLives);
         Assertions.assertArrayEquals(expectedWord,actualWord);
     }
+
+    @Test
+    public void checkWords(){
+        FieldOfDreams field = new FieldOfDreams();
+        field.setAnswer("КОЛИБРИ");
+
+        Boolean actual = field.checkWords("КОЛИБРИ");
+        Assertions.assertTrue(actual);
+
+        Boolean actual1 = field.checkWords("колибри");
+        Assertions.assertTrue(actual1);
+    }
 }

@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="15a933cd-35c7-4c8d-8e59-8d36fecdb1c5" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/FieldOfDreams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/FieldOfDreams.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/FieldOfDreamsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FieldOfDreamsTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
