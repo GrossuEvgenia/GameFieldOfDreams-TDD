@@ -185,7 +185,21 @@
       <option name="project" value="LOCAL" />
       <updated>1678510996935</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Добавлен тест на попытку угадать слово">
+      <created>1678511466822</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1678511466822</updated>
+    </task>
+    <task id="LOCAL-00018" summary="в FieldOfDreams добавлен метод попытки отгадать слово. Тест пройден">
+      <created>1678511642980</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1678511642980</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -216,6 +230,8 @@
     <MESSAGE value="в FieldOfDreams добавлен метод инициализации параметров игрока. Тест пройден" />
     <MESSAGE value="Добавлен тест на идентичность слов" />
     <MESSAGE value="в FieldOfDreams добавлен метод проверки идентичности слов. Тест пройден" />
-    <option name="LAST_COMMIT_MESSAGE" value="в FieldOfDreams добавлен метод проверки идентичности слов. Тест пройден" />
+    <MESSAGE value="Добавлен тест на попытку угадать слово" />
+    <MESSAGE value="в FieldOfDreams добавлен метод попытки отгадать слово. Тест пройден" />
+    <option name="LAST_COMMIT_MESSAGE" value="в FieldOfDreams добавлен метод попытки отгадать слово. Тест пройден" />
   </component>
 </project>

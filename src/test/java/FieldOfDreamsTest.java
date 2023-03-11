@@ -72,6 +72,17 @@ public class FieldOfDreamsTest {
         int actualLetter=field.getPlayer().getGuessedLetters();
         Assertions.assertEquals(expectedLetter,actualLetter);
 
+    }
 
+    @Test
+    public void checkLetter(){
+        FieldOfDreams field = new FieldOfDreams();
+        field.setAnswer("КОЛИБРИ");
+
+        Boolean actual = field.checkLetter('Л');
+        Assertions.assertTrue(actual);
+
+        Boolean actual1 = field.checkLetter('л');
+        Assertions.assertTrue(actual1);
     }
 }
