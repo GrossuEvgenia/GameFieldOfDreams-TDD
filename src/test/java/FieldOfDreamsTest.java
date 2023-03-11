@@ -127,4 +127,28 @@ public class FieldOfDreamsTest {
 
         Assertions.assertArrayEquals(expected,actual);
     }
+    @Test
+    public void hasNext(){
+        FieldOfDreams field = new FieldOfDreams();
+        field.setAnswer("КОЛИБРИ");
+
+        Boolean actualFalse = field.hasNext();
+        Assertions.assertFalse(actualFalse);
+
+        Player player = new Player();
+        player.setNumberOfLives(7);
+        player.setGuessedLetters(7);
+        field.setPlayer(player);
+
+        actualFalse =field.hasNext();
+        Assertions.assertFalse(actualFalse);
+
+        player.setGuessedLetters(0);
+        field.setPlayer(player);
+
+        Boolean actualTrue = field.hasNext();
+        Assertions.assertTrue(actualTrue);
+
+
+    }
 }
