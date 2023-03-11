@@ -65,4 +65,10 @@ public class FieldOfDreams {
     public Boolean checkWords(String word){
         return answer.compareTo(word.toUpperCase())==0;
     }
+
+    public void tryGuessedWord(String word){
+        if(checkWords(word))
+            player.setGuessedLetters(answer.length());
+        else player.setNumberOfLives(0);
+    }
 }

@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="15a933cd-35c7-4c8d-8e59-8d36fecdb1c5" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/FieldOfDreams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/FieldOfDreams.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/FieldOfDreamsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FieldOfDreamsTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -178,7 +178,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678510779566</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="в FieldOfDreams добавлен метод проверки идентичности слов. Тест пройден">
+      <created>1678510996935</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1678510996935</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -208,6 +215,7 @@
     <MESSAGE value="Добавлен тест на получение вопроса и ответа из файла" />
     <MESSAGE value="в FieldOfDreams добавлен метод инициализации параметров игрока. Тест пройден" />
     <MESSAGE value="Добавлен тест на идентичность слов" />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавлен тест на идентичность слов" />
+    <MESSAGE value="в FieldOfDreams добавлен метод проверки идентичности слов. Тест пройден" />
+    <option name="LAST_COMMIT_MESSAGE" value="в FieldOfDreams добавлен метод проверки идентичности слов. Тест пройден" />
   </component>
 </project>
