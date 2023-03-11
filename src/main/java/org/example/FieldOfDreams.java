@@ -71,4 +71,8 @@ public class FieldOfDreams {
             player.setGuessedLetters(answer.length());
         else player.setNumberOfLives(0);
     }
+
+    public boolean checkLetter(char s){
+        return answer.contains(String.valueOf(Character.toUpperCase(s)));
+    }
 }

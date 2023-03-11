@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="15a933cd-35c7-4c8d-8e59-8d36fecdb1c5" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/FieldOfDreamsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FieldOfDreamsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/FieldOfDreams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/FieldOfDreams.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -199,7 +199,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678511642980</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Добавлен тест на проверку есть ли буква в слове">
+      <created>1678511805617</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1678511805617</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -232,6 +239,18 @@
     <MESSAGE value="в FieldOfDreams добавлен метод проверки идентичности слов. Тест пройден" />
     <MESSAGE value="Добавлен тест на попытку угадать слово" />
     <MESSAGE value="в FieldOfDreams добавлен метод попытки отгадать слово. Тест пройден" />
-    <option name="LAST_COMMIT_MESSAGE" value="в FieldOfDreams добавлен метод попытки отгадать слово. Тест пройден" />
+    <MESSAGE value="Добавлен тест на проверку есть ли буква в слове" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавлен тест на проверку есть ли буква в слове" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/FieldOfDreamsTest.java</url>
+          <line>81</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
