@@ -48,6 +48,14 @@ public class PlayerTest {
 
         Assertions.assertArrayEquals(expected, player.getGuessedWord());
     }
+    @Test
+    public void checkGuessedLetter(){
+        Player player = new Player();
+        player.setGuessedWord(new char[]{'_','А','_','А'});
 
+        Boolean actual= player.checkGuessedLetter('А');
+
+        Assertions.assertTrue(actual);
+    }
 
 }
