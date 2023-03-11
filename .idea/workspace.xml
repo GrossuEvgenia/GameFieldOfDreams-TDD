@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="15a933cd-35c7-4c8d-8e59-8d36fecdb1c5" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/FieldOfDreams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/FieldOfDreams.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/FieldOfDreamsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FieldOfDreamsTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -157,7 +158,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678509041066</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Добавлен тест на получение вопроса и ответа из файла">
+      <created>1678509777747</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1678509777747</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -184,6 +192,7 @@
     <MESSAGE value="в Player добавлен метод проверки была ли буква открыта ранее. Тест пройден" />
     <MESSAGE value="Добавлен тест на создание объекта класса FieldOfDreams" />
     <MESSAGE value="Создан класс FieldOfDreams. Тест пройден" />
-    <option name="LAST_COMMIT_MESSAGE" value="Создан класс FieldOfDreams. Тест пройден" />
+    <MESSAGE value="Добавлен тест на получение вопроса и ответа из файла" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавлен тест на получение вопроса и ответа из файла" />
   </component>
 </project>

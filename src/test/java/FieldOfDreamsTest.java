@@ -19,7 +19,7 @@ public class FieldOfDreamsTest {
         field.getQandAOnFile();
 
         String actualQ=field.getQuestion();
-        String actualA=fielf.getAnswer();
+        String actualA=field.getAnswer();
 
         Assertions.assertEquals(expectedQ,actualQ);
         Assertions.assertEquals(expectedA,actualA);
