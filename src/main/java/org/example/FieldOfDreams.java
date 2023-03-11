@@ -83,6 +83,15 @@ public class FieldOfDreams {
         else if(checkLetter(s)){
             int number = StringUtils.countMatches(answer,s);
             player.addGuessedLetters(number);
+
+            int index = -1;
+            int []  indexs = new int[number];
+            int k=0;
+            while ((index = answer.indexOf(s, index + 1)) != -1) {
+                indexs[k]=index;
+                k++;
+            }
+            player.openGuessedLetter(Character.toUpperCase(s),indexs);
         }
         else{
             player.reduceNumberOfLives();
