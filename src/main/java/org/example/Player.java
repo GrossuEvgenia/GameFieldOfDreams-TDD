@@ -1,5 +1,8 @@
 package org.example;
 
+import java.util.Arrays;
+import java.util.stream.Stream;
+
 public class Player {
     private int numberOfLives;
     private int guessedLetters;
@@ -54,5 +57,10 @@ public class Player {
         for(int i : index){
             guessedWord[i]=s;
         }
+    }
+
+    public Boolean checkGuessedLetter(char s){
+        Stream<Character> charStream = new String(guessedWord).chars().mapToObj(i -> (char)i);
+        return charStream.filter(i->i==s).count()!=0;
     }
 }
