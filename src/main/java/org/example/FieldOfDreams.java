@@ -1,7 +1,7 @@
 package org.example;
 
 import java.io.*;
-
+import org.apache.commons.lang3.StringUtils;
 public class FieldOfDreams {
     private String question;
     private String answer;
@@ -74,5 +74,18 @@ public class FieldOfDreams {
 
     public boolean checkLetter(char s){
         return answer.contains(String.valueOf(Character.toUpperCase(s)));
+    }
+
+    public void tryGuessedLetter(char s){
+        if(player.checkGuessedLetter(Character.toUpperCase(s))){
+            player.reduceNumberOfLives();
+        }
+        else if(checkLetter(s)){
+            int number = StringUtils.countMatches(answer,s);
+            player.addGuessedLetters(number);
+        }
+        else{
+            player.reduceNumberOfLives();
+        }
     }
 }
