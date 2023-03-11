@@ -85,4 +85,34 @@ public class FieldOfDreamsTest {
         Boolean actual1 = field.checkLetter('л');
         Assertions.assertTrue(actual1);
     }
+    @Test
+    public void tryGuessLetter(){
+        FieldOfDreams field = new FieldOfDreams();
+        field.setAnswer("КОЛИБРИ");
+        Player player = new Player();
+        player.setGuessedWord(new char[]{'_','_','_','_','_','_','_'});
+        player.setNumberOfLives(7);
+        field.setPlayer(player);
+
+        int expectedLives=6;
+        field.tryGuessedLetter('Ю');
+        int actualLives=field.getPlayer().getNumberOfLives();
+        Assertions.assertEquals(expectedLives,actualLives);
+
+        int expectedLetter =2;
+        field.tryGuessedLetter('И');
+        int actualLetter=field.getPlayer().getGuessedLetters();
+        Assertions.assertEquals(expectedLetter,actualLetter);
+
+        player.setNumberOfLives(7);
+        player.setGuessedWord(new char[]{'_','_','_','И','_','_','И'});
+        field.setPlayer(player);
+        expectedLives=6;
+        field.tryGuessedLetter('И');
+        actualLives=field.getPlayer().getNumberOfLives();
+        Assertions.assertEquals(expectedLives,actualLives);
+
+
+
+    }
 }
