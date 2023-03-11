@@ -67,8 +67,9 @@ public class FieldOfDreams {
     }
 
     public void tryGuessedWord(String word){
-        if(checkWords(word))
+        if(checkWords(word)) {
             player.setGuessedLetters(answer.length());
+        }
         else player.setNumberOfLives(0);
     }
 
@@ -79,22 +80,43 @@ public class FieldOfDreams {
     public void tryGuessedLetter(char s){
         if(player.checkGuessedLetter(Character.toUpperCase(s))){
             player.reduceNumberOfLives();
+            System.out.println("Эта буква уже отгадана");
         }
         else if(checkLetter(s)){
-            int number = StringUtils.countMatches(answer,s);
+            int number = StringUtils.countMatches(answer,Character.toUpperCase(s));
             player.addGuessedLetters(number);
 
             int index = -1;
             int []  indexs = new int[number];
             int k=0;
-            while ((index = answer.indexOf(s, index + 1)) != -1) {
+            while ((index = answer.indexOf(Character.toUpperCase(s), index + 1)) != -1) {
                 indexs[k]=index;
                 k++;
             }
             player.openGuessedLetter(Character.toUpperCase(s),indexs);
+            System.out.println("Вы угадали букву!");
         }
         else{
             player.reduceNumberOfLives();
+            System.out.println("Такой буквы в слове нет");
         }
+    }
+
+    public Boolean hasNext(){
+        if(player.getNumberOfLives()!=0 &&player.getGuessedLetters()!=answer.length())
+            return true;
+
+        return false;
+    }
+
+    public void startMessage(){
+        System.out.println("Добро пожаловать в игру \"ПОЛЕ ЧУДЕС\"");
+        System.out.println("Цель игры - отгадать задуманное слово");
+        System.out.println("Вы можете угадываеть его по буквам или целиком");
+        System.out.println("В игре у вас будут жизни, их количество равно количеству букв в слове.\n"+
+                "С каждой неправильно угаданной буквой количество жизней будет уменьшаться");
+        System.out.println("Если вы называете слово целиком и неправильно, то проигрываете");
+        System.out.println("\tВОПРОС");
+        System.out.println(question);
     }
 }

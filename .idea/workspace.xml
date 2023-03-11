@@ -6,8 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="15a933cd-35c7-4c8d-8e59-8d36fecdb1c5" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/FieldOfDreams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/FieldOfDreams.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +40,20 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.FieldOfDreamsTest">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
+      <module name="FieldOfDreams_" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FieldOfDreamsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FieldOfDreams_" />
       <option name="PACKAGE_NAME" value="" />
@@ -61,6 +74,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.FieldOfDreamsTest" />
         <item itemvalue="JUnit.PlayerTest" />
       </list>
@@ -243,7 +257,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678513703153</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Добавлен тест на проверку возможности продолжать игру">
+      <created>1678519136588</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1678519136588</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -279,20 +300,26 @@
     <MESSAGE value="Добавлен тест на проверку есть ли буква в слове" />
     <MESSAGE value="в FieldOfDreams добавлен метод проверки есть ли буква в слове. Тест пройден" />
     <MESSAGE value="Добавлен тест на попытку угадать букву" />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавлен тест на попытку угадать букву" />
+    <MESSAGE value="Добавлен тест на проверку возможности продолжать игру" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавлен тест на проверку возможности продолжать игру" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/FieldOfDreamsTest.java</url>
-          <line>81</line>
-          <option name="timeStamp" value="2" />
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/FieldOfDreams.java</url>
+          <line>95</line>
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/FieldOfDreamsTest.java</url>
-          <line>102</line>
-          <option name="timeStamp" value="6" />
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/FieldOfDreams.java</url>
+          <line>91</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
