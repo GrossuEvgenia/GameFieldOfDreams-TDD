@@ -24,4 +24,19 @@ public class FieldOfDreamsTest {
         Assertions.assertEquals(expectedQ,actualQ);
         Assertions.assertEquals(expectedA,actualA);
     }
+    @Test
+    public void initializationPlayer(){
+        FieldOfDreams field = new FieldOfDreams();
+        field.setAnswer("КОЛИБРИ");
+
+        int expectedLives=7;
+        char expectedWord[]={'_','_','_','_','_','_','_'};
+
+        field.initializationPlayer();
+        int actualLives = field.getPlayer().getNumberOfLives();
+        char actualWord[] = field.getPlayer().getGuessedWord();
+
+        Assertions.assertEquals(expectedLives, actualLives);
+        Assertions.assertArrayEquals(expectedWord,actualWord);
+    }
 }
