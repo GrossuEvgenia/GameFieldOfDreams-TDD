@@ -37,4 +37,15 @@ public class PlayerTest {
 
         Assertions.assertEquals(expected, player.getGuessedLetters());
     }
+
+    @Test
+    public void openGuessedLetter(){
+        Player player = new Player();
+        char expected[]={'_','А','_','А'};
+        player.setGuessedWord(new char[]{'_', '_', '_', '_'});
+
+        player.openGuessedLetter('А', new int[]{1,3});
+
+        Assertions.assertArrayEquals(expected, player.getGuessedWord());
+    }
 }
