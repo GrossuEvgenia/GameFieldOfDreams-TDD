@@ -28,6 +28,14 @@ public class Player {
         this.guessedWord = guessedWord;
     }
 
+    public int getGuessedLetters() {
+        return guessedLetters;
+    }
+
+    public void setGuessedLetters(int guessedLetters) {
+        this.guessedLetters = guessedLetters;
+    }
+
     public void initializationGuessedWord(int size){
         guessedWord = new char[size];
         for(int i=0; i<size;i++)
@@ -36,5 +44,9 @@ public class Player {
 
     public void reduceNumberOfLives(){
         numberOfLives--;
+    }
+
+    public  void addGuessedLetters(int number){
+        guessedLetters+=number;
     }
 }
