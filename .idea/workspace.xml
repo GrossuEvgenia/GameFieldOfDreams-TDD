@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="15a933cd-35c7-4c8d-8e59-8d36fecdb1c5" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Player.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/PlayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PlayerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -91,7 +93,28 @@
       <option name="project" value="LOCAL" />
       <updated>1678505984344</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Добавлен тест на увеличение количества угаданных букв">
+      <created>1678506815074</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1678506815074</updated>
+    </task>
+    <task id="LOCAL-00006" summary="в Player добавлен метод увеличения количества угаданных букв. Тест пройден">
+      <created>1678506938095</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1678506938095</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Добавлен тест на открытие буквы в угаданном слове">
+      <created>1678507284246</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1678507284246</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -110,6 +133,9 @@
     <MESSAGE value="Добавлен тест на создание объекта класса Player" />
     <MESSAGE value="Добавлен класс Player. Тест пройден" />
     <MESSAGE value="Добавлен тест на инициализацию массива с угаданным словом" />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавлен тест на инициализацию массива с угаданным словом" />
+    <MESSAGE value="Добавлен тест на увеличение количества угаданных букв" />
+    <MESSAGE value="в Player добавлен метод увеличения количества угаданных букв. Тест пройден" />
+    <MESSAGE value="Добавлен тест на открытие буквы в угаданном слове" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавлен тест на открытие буквы в угаданном слове" />
   </component>
 </project>

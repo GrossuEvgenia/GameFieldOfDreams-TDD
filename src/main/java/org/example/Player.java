@@ -49,4 +49,10 @@ public class Player {
     public  void addGuessedLetters(int number){
         guessedLetters+=number;
     }
+
+    public void openGuessedLetter(char s, int [] index){
+        for(int i : index){
+            guessedWord[i]=s;
+        }
+    }
 }
