@@ -16,6 +16,14 @@ public class Player {
         return guessedWord;
     }
 
+    public int getNumberOfLives() {
+        return numberOfLives;
+    }
+
+    public void setNumberOfLives(int numberOfLives) {
+        this.numberOfLives = numberOfLives;
+    }
+
     public void setGuessedWord(char[] guessedWord) {
         this.guessedWord = guessedWord;
     }
@@ -24,5 +32,9 @@ public class Player {
         guessedWord = new char[size];
         for(int i=0; i<size;i++)
             guessedWord[i]='_';
+    }
+
+    public void reduceNumberOfLives(){
+        numberOfLives--;
     }
 }
