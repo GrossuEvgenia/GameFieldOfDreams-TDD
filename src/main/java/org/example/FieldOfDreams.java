@@ -61,4 +61,8 @@ public class FieldOfDreams {
         player.setNumberOfLives(answer.length());
         player.initializationGuessedWord(answer.length());
     }
+
+    public Boolean checkWords(String word){
+        return answer.compareTo(word.toUpperCase())==0;
+    }
 }

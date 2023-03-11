@@ -164,7 +164,21 @@
       <option name="project" value="LOCAL" />
       <updated>1678509777747</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="в FieldOfDreams добавлен метод инициализации параметров игрока. Тест пройден">
+      <created>1678510673126</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1678510673126</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Добавлен тест на идентичность слов">
+      <created>1678510779566</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1678510779566</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -192,6 +206,8 @@
     <MESSAGE value="Добавлен тест на создание объекта класса FieldOfDreams" />
     <MESSAGE value="Создан класс FieldOfDreams. Тест пройден" />
     <MESSAGE value="Добавлен тест на получение вопроса и ответа из файла" />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавлен тест на получение вопроса и ответа из файла" />
+    <MESSAGE value="в FieldOfDreams добавлен метод инициализации параметров игрока. Тест пройден" />
+    <MESSAGE value="Добавлен тест на идентичность слов" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавлен тест на идентичность слов" />
   </component>
 </project>
