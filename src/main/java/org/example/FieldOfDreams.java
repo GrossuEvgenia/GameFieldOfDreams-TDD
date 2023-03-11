@@ -29,6 +29,14 @@ public class FieldOfDreams {
         this.question = question;
     }
 
+    public Player getPlayer() {
+        return player;
+    }
+
+    public void setPlayer(Player player) {
+        this.player = player;
+    }
+
     public void getQandAOnFile(){
         String[] words = new String[2];
         try {
@@ -47,5 +55,10 @@ public class FieldOfDreams {
 
         question=words[0];
         answer=words[1];
+    }
+
+    public void initializationPlayer(){
+        player.setNumberOfLives(answer.length());
+        player.initializationGuessedWord(answer.length());
     }
 }
