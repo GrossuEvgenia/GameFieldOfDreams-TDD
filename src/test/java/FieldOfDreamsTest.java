@@ -8,4 +8,20 @@ public class FieldOfDreamsTest {
         FieldOfDreams field = new FieldOfDreams();
         Assertions.assertNotNull(field);
     }
+
+    @Test
+    public void getQandAOnFile(){
+        FieldOfDreams field = new FieldOfDreams();
+
+        String expectedQ = "КАКАЯ ПТИЧКА ЯВЛЯЕТСЯ САМОЙ МАЛЕНЬКОЙ";
+        String expectedA ="КОЛИБРИ";
+
+        field.getQandAOnFile();
+
+        String actualQ=field.getQuestion();
+        String actualA=fielf.getAnswer();
+
+        Assertions.assertEquals(expectedQ,actualQ);
+        Assertions.assertEquals(expectedA,actualA);
+    }
 }
