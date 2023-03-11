@@ -1,4 +1,5 @@
 import org.example.FieldOfDreams;
+import org.example.Player;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
@@ -50,5 +51,27 @@ public class FieldOfDreamsTest {
 
         Boolean actual1 = field.checkWords("колибри");
         Assertions.assertTrue(actual1);
+    }
+
+    @Test
+    public void tryGuessWord(){
+        FieldOfDreams field = new FieldOfDreams();
+        field.setAnswer("КОЛИБРИ");
+        Player player = new Player();
+        player.setNumberOfLives(7);
+        field.setPlayer(player);
+        int expectedLives=0;
+
+        field.tryGuessedWord("БОЛИВИЯ");
+        int actualLives=field.getPlayer().getNumberOfLives();
+        Assertions.assertEquals(expectedLives,actualLives);
+
+        int expectedLetter =7;
+
+        field.tryGuessedWord("КОЛИБРИ");
+        int actualLetter=field.getPlayer().getGuessedLetters();
+        Assertions.assertEquals(expectedLetter,actualLetter);
+
+
     }
 }
