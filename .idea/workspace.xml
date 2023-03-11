@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="15a933cd-35c7-4c8d-8e59-8d36fecdb1c5" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/FieldOfDreams.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/FieldOfDreamsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FieldOfDreamsTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +39,16 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.FieldOfDreamsTest">
+    <configuration name="FieldOfDreamsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FieldOfDreams_" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FieldOfDreamsTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PlayerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FieldOfDreams_" />
       <option name="PACKAGE_NAME" value="" />
@@ -51,6 +60,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FieldOfDreamsTest" />
         <item itemvalue="JUnit.PlayerTest" />
       </list>
     </recent_temporary>
@@ -127,7 +137,21 @@
       <option name="project" value="LOCAL" />
       <updated>1678507683591</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="в Player добавлен метод проверки была ли буква открыта ранее. Тест пройден">
+      <created>1678508627833</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1678508627833</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Добавлен тест на создание объекта класса FieldOfDreams">
+      <created>1678508854658</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1678508854658</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -151,6 +175,8 @@
     <MESSAGE value="Добавлен тест на открытие буквы в угаданном слове" />
     <MESSAGE value="в Player добавлен метод на открытие угаданной буквы в слове. Тест пройден" />
     <MESSAGE value="Добавлен тест была ли буква открыта раньше" />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавлен тест была ли буква открыта раньше" />
+    <MESSAGE value="в Player добавлен метод проверки была ли буква открыта ранее. Тест пройден" />
+    <MESSAGE value="Добавлен тест на создание объекта класса FieldOfDreams" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавлен тест на создание объекта класса FieldOfDreams" />
   </component>
 </project>
