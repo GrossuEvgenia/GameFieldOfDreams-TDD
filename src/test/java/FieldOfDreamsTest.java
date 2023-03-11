@@ -111,8 +111,20 @@ public class FieldOfDreamsTest {
         field.tryGuessedLetter('И');
         actualLives=field.getPlayer().getNumberOfLives();
         Assertions.assertEquals(expectedLives,actualLives);
+    }
+    @Test
+    public void tryGuessLetter1(){
+        FieldOfDreams field = new FieldOfDreams();
+        field.setAnswer("КОЛИБРИ");
+        Player player = new Player();
+        player.setGuessedWord(new char[]{'_','_','_','_','_','_','_'});
+        field.setPlayer(player);
 
+        char expected[] ={'_','_','_','И','_','_','И'};
+        field.tryGuessedLetter('И');
 
+        char actual[] = field.getPlayer().getGuessedWord();
 
+        Assertions.assertArrayEquals(expected,actual);
     }
 }
